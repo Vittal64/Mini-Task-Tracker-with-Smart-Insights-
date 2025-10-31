@@ -31,20 +31,7 @@
 
 ---
 
-## 4. Insights Logic
-
-Rule-based (no AI Models):
-
-- Count open tasks
-- Count high priority open tasks
-- Count tasks due within 3 days
-- Generate motivational summary
-
-Rationale: meets assignment "LLM-like logic without using AI" requirement
-
----
-
-## 5. Frontend Choices
+## 4. Frontend Choices
 
 - Simple HTML/CSS + JS
 - `fetch()` for REST API interaction
@@ -53,17 +40,16 @@ Rationale: meets assignment "LLM-like logic without using AI" requirement
 
 ---
 
-## 6. Learning Outcomes
+## 5. Learning Outcomes
 
 - CRUD backend with SQLite
-- RESTful API development
 - DOM manipulation frontend
 - Basic data analytics logic
 - Environment setup & documentation
 
 ---
 
-## 7. Future Enhancements
+## 6. Future Enhancements
 
 - Edit & delete tasks
 - User authentication
