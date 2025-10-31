@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Task Tracker</h1>
+
+    <form id="taskForm">
+      <input type="text" id="title" placeholder="Title" required />
+      <textarea id="description" placeholder="Description"></textarea>
+
+      <select id="priority">
+        <option value="Low">Low Priority</option>
+        <option value="Medium" selected>Medium Priority</option>
+        <option value="High">High Priority</option>
+      </select>
+
+      <input type="date" id="due_date" required />
+
+      <button type="submit">Add Task</button>
+    </form>
+
+    <h3>Tasks</h3>
+
+    <div class="filters">
+      <select id="filterStatus">
+        <option value="">All Status</option>
+        <option value="Open">Open</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Done">Done</option>
+      </select>
+
+      <select id="filterPriority">
+        <option value="">All Priority</option>
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Priority</th>
+          <th>Status</th>
+          <th>Due Date</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="taskList"></tbody>
+    </table>
+
+<script src="app.js"></script>
+</body>
+</html>
