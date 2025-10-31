@@ -8,10 +8,8 @@ It allows users to create, view, update, and filter tasks, along with a smart wo
 ## ✅ Features
 
 - Add tasks with title, description, priority & due date  
-- List tasks with filters (status & priority)
 - Update task status
 - SQLite database
-- Basic rule-based "AI-like" insights
 - Clean folder structure
 
 ---
